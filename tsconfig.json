@@ -1,0 +1,25 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es5",
+    "outDir": "wwwroot/js/appScriptsJS",
+    "typeRoots": [
+      "node_modules/@types",
+      "reflect-metadata"
+    ],
+    "types": [
+      "jquery",
+      "bootstrap"
+    ],
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "wwwroot/ts/**/*"
+  ]
+}
